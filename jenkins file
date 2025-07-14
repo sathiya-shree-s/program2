@@ -4,7 +4,7 @@ stages {
  stage('Checkout') {
  steps {
  // Checkout code from Git repository
- git url: 'https://github.com/Nandhini0307/program3.git', branch: 'main'
+ git url: 'https://github.com/sathiya-shree-s/program2.git', branch: 'main'
  }
  }
  stage('Build') {
